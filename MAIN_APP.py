@@ -22,7 +22,7 @@ from rembg import remove
 import logging
 import subprocess
 import fitz  # PyMuPDF for AI PDF Editor
-from fpdf import FPDF  # For AI PDF Editor
+from fpdf import FPDF  # For AI PDF Editor (fpdf2)
 import glob
 from flask_cors import CORS
 import requests

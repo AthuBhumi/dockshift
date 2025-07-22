@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "nixpacks"
+  },
+  "deploy": {
+    "startCommand": ". /opt/venv/bin/activate && gunicorn --bind 0.0.0.0:$PORT MAIN_APP:app",
+    "healthcheckPath": "/",
+    "healthcheckTimeout": 100,
+    "restartPolicyType": "always"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "tars-docshift",
+  "version": "1.0.0",
+  "description": "TARS DocShift - Document processing and conversion platform",
+  "main": "server.py",
+  "scripts": {
+    "start": ". /opt/venv/bin/activate && python server.py",
+    "dev": "python MAIN_APP.py"
+  },
+  "engines": {
+    "python": "3.11.x"
+  },
+  "keywords": ["flask", "document", "pdf", "conversion"],
+  "author": "AthuBhumi",
+  "license": "MIT"
+}
